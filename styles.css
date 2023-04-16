@@ -1,0 +1,20 @@
+body {
+  background-image: url('static/img/cool-background.png');
+  color: white;
+  text-align: center;
+}
+
+.main-div {
+  padding: 30px;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+  height: 40vh;
+  margin-top: 10%;
+}
+
+.company-name {
+  font-weight: 500;
+}
