@@ -1,5 +1,5 @@
 body {
-  background-image: url('static/img/cool-background.png');
+  background-image: url('static/img/landing-background.png');
   color: white;
   text-align: center;
 }
@@ -16,5 +16,44 @@ body {
 }
 
 .company-name {
-  font-weight: 500;
+  font-weight: 700;
+}
+
+.footer {
+  color: black;
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* position: relative; */
+}
+
+/* .footer-child {
+  position: absolute;
+  bottom: 0;
+
+} */
+
+a { color: inherit; } 
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+.footer-child > a {
+  padding: 5px
 }
